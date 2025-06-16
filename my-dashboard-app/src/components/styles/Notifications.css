@@ -1,0 +1,26 @@
+.notifications {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.notifications ul {
+  list-style: none;
+  padding: 0;
+}
+.notifications li {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.notifications .unread {
+  background-color: #fff3cd;
+}
+.notifications .read {
+  background-color: #e2f0cb;
+}
