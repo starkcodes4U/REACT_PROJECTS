@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 
 const formatTime = (date) => {
-  // Extract HH:MM:SS from ISO string
-  return date.toTimeString().split(" ")[0]; // "HH:MM:SS"
+  
+  return date.toTimeString().split(" ")[0];
 };
 
 const DigitalClock = () => {

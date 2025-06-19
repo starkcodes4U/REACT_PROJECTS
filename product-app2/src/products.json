@@ -1,0 +1,9 @@
+[
+{ "id": 1, "name": "iPhone 13", "category": "Electronics", "price": 899 },
+{ "id": 2, "name": "MacBook Pro", "category": "Electronics", "price": 1999 },
+{ "id": 3, "name": "Leather Wallet", "category": "Accessories", "price": 49 },
+{ "id": 4, "name": "Running Shoes", "category": "Footwear", "price": 120 },
+{ "id": 5, "name": "Samsung TV", "category": "Electronics", "price": 1499 },
+{ "id": 6, "name": "Bluetooth Speaker", "category": "Accessories", "price": 79 },
+{ "id": 7, "name": "Sneakers", "category": "Footwear", "price": 90 }
+]
