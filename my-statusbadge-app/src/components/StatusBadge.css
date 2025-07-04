@@ -1,0 +1,41 @@
+/* src/components/StatusBadge.css */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.5em 1em;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  color: white;
+  transition: transform 0.2s ease;
+}
+
+.badge-success {
+  background-color: #28a745;
+}
+
+.badge-error {
+  background-color: #dc3545;
+}
+
+.badge-warning {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.icon {
+  font-size: 1.2em;
+}
+
+@media (max-width: 600px) {
+  .badge {
+    font-size: 0.75rem;
+    padding: 0.4em 0.8em;
+  }
+
+  .icon {
+    font-size: 1em;
+  }
+}
